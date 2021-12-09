@@ -7,15 +7,15 @@ A paper list on Factual Consistency
 * [Survey Paper](#1-survey-paper)
 * [Model](#2-model)
   * [Architectures](#21-architectures)
-  * [Generation Strategies](#2.2 Generation Strategies)
-  * [Training Strategies](#2.3 Training Strategies)
-  * [Different Stages](#2.4 Different Stages)
-  * [Different Granularities](#2.5 Different Granularities)
-  * [Different Views](#2.6 Different Views)
+  * [Generation Strategies](#22-generation-strategies)
+  * [Training Strategies](#23-training-strategies)
+  * [Different Stages](#24-different-stages)
+  * [Different Granularities](#25-different-granularities)
+  * [Different Views](#26-different-views)
 
-* [Evaluation](#3 Evaluation)
-* [Resource](#4 Resource)
-* [Analysis](#5 Analysis)
+* [Evaluation](#3-evaluation)
+* [Resource](#4-resource)
+* [Analysis](#5-analysis)
 
 ## 1 Survey Paper
 
