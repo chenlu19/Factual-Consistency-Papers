@@ -33,17 +33,13 @@ A paper list on Factual Consistency
 #### Copy-based
 
 * [Get to the Point: Summarization with Pointer-generator Networks](https://www.aclweb.org/anthology/P17-1099.pdf)
-
 * [On the Faithfulness for E-commerce Product Summarization](https://www.aclweb.org/anthology/2020.coling-main.502.pdf)
 
 #### Attention-based
 
 * [Faithful to the original: Fact-aware neural abstractive summarization](https://ojs.aaai.org/index.php/AAAI/article/view/11912/11771)
-
 * [Enhancing Factual Consistency of Abstractive Summarization](https://aclanthology.org/2021.naacl-main.58.pdf)
-
 * [Mind The Facts: Knowledge-Boosted Coherent Abstractive Text Summarization](https://arxiv.org/pdf/2006.15435.pdf)
-
 * [Encouraging Lexical Translation Consistency for Document-Level Neural Machine Translation](https://aclanthology.org/2021.emnlp-main.262.pdf)
 
 #### Retrieval-augmented
@@ -53,9 +49,7 @@ A paper list on Factual Consistency
 #### Graph-augmented
 
 * [Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward](https://arxiv.org/pdf/2005.01159.pdf)
-
 * [Enhancing Factual Consistency of Abstractive Summarization](https://aclanthology.org/2021.naacl-main.58.pdf)
-
 * [Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding](https://arxiv.org/pdf/2104.08455.pdf)
 
   
@@ -78,7 +72,6 @@ A paper list on Factual Consistency
 
 * [Guiding Extractive Summarization with Question-Answering Rewards](https://arxiv.org/pdf/1904.02321.pdf)
 * [Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward](https://arxiv.org/pdf/2005.01159.pdf)
-
 * [Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports](https://arxiv.org/pdf/1911.02541.pdf)
 * [Refine and Imitate: Reducing Repetition and Inconsistency in Persuasion Dialogues via Reinforcement Learning and Human Demonstration](https://arxiv.org/pdf/2012.15375.pdf)
 
@@ -87,7 +80,6 @@ A paper list on Factual Consistency
 * [Soft layer-specific multi-task summarization with entailment and question generation](https://arxiv.org/pdf/1805.11004.pdf)
 * [Entity-level Factual Consistency of Abstractive Text Summarization](https://aclanthology.org/2021.eacl-main.235.pdf)
 * [Towards Improving Abstractive Summarization via Entailment Generation](https://www.aclweb.org/anthology/W17-4504.pdf)
-
 * [Ensure the Correctness of the Summary: Incorporate Entailment Knowledge into Abstractive Sentence Summarization](https://www.aclweb.org/anthology/C18-1121.pdf)
 
 #### Contrastive Learning
@@ -109,7 +101,6 @@ A paper list on Factual Consistency
 #### - Consistency / Hallucination Loss
 
 * [Encouraging Lexical Translation Consistency for Document-Level Neural Machine Translation](https://aclanthology.org/2021.emnlp-main.262.pdf)
-
 * [Detecting Hallucinated Content in Conditional Neural Sequence Generation](https://arxiv.org/pdf/2011.02593.pdf)
 
 #### - Reconstruction Loss
@@ -135,19 +126,14 @@ A paper list on Factual Consistency
 #### - Factual Error Correction
 
 * [Factual Error Correction for Abstractive Summarization Models](https://aclanthology.org/2020.emnlp-main.506.pdf)
-
 * [Multi-Fact Correction in Abstractive Text Summarization](https://aclanthology.org/2020.emnlp-main.749.pdf)
-
 * [Enhancing Factual Consistency of Abstractive Summarization](https://aclanthology.org/2021.naacl-main.58.pdf)
-
 * [Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding](https://arxiv.org/pdf/2104.08455.pdf)
 
 #### - Re-ranking by Correctness / Consistency
 
 * [Ranking generated summaries by correctness: An interesting but challenging application for natural language inference](https://www.aclweb.org/anthology/P19-1213.pdf)
-
 * [I like fish , especially dolphins : Addressing Contradictions in Dialogue Modeling](https://arxiv.org/pdf/2012.13391.pdf)
-
 * [Reducing Quantity Hallucinations in Abstractive Summarization](https://arxiv.org/pdf/2009.13312.pdf)
 
 #### Pre-processor
@@ -155,7 +141,6 @@ A paper list on Factual Consistency
 #### - Process Input Data
 
 * [Entity-level Factual Consistency of Abstractive Text Summarization](https://aclanthology.org/2021.eacl-main.235.pdf)
-
 * [A Simple Recipe towards Reducing Hallucination in Neural Surface Realisation](https://www.aclweb.org/anthology/P19-1256.pdf)
 
 
@@ -165,36 +150,23 @@ A paper list on Factual Consistency
 #### Token / Entity-level
 
 * [Mind The Facts: Knowledge-Boosted Coherent Abstractive Text Summarization](https://arxiv.org/pdf/2006.15435.pdf)
-
 * [CLIFF: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization](https://aclanthology.org/2021.emnlp-main.532.pdf)
-
 * [Multi-Fact Correction in Abstractive Text Summarization](https://aclanthology.org/2020.emnlp-main.749.pdf)
-
 * [Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding](https://arxiv.org/pdf/2104.08455.pdf)
-
 * [Entity-level Factual Consistency of Abstractive Text Summarization](https://aclanthology.org/2021.eacl-main.235.pdf)
-
 * [Reducing Quantity Hallucinations in Abstractive Summarization](https://arxiv.org/pdf/2009.13312.pdf)
-
 * [Factual Error Correction for Abstractive Summarization Models](https://aclanthology.org/2020.emnlp-main.506.pdf)
-
 * [Retrieval Augmentation Reduces Hallucination in Conversation](https://arxiv.org/pdf/2104.07567.pdf)
 * [Encouraging Lexical Translation Consistency for Document-Level Neural Machine Translation](https://aclanthology.org/2021.emnlp-main.262.pdf)
 
 #### Sequence / Relation or Event-level
 
 * [CLIFF: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization](https://aclanthology.org/2021.emnlp-main.532.pdf)
-
 * [Knowledge Graph-Augmented Abstractive Summarization with Semantic-Driven Cloze Reward](https://arxiv.org/pdf/2005.01159.pdf)
-
 * [Math Word Problem Generation with Mathematical Consistency and Problem Context Constraints](https://arxiv.org/pdf/2109.04546.pdf)
-
 * [Refine and Imitate: Reducing Repetition and Inconsistency in Persuasion Dialogues via Reinforcement Learning and Human Demonstration](https://arxiv.org/pdf/2012.15375.pdf)
-
 * [Faithful to the original: Fact-aware neural abstractive summarization](https://ojs.aaai.org/index.php/AAAI/article/view/11912/11771)
-
 * [Enhancing Factual Consistency of Abstractive Summarization](https://aclanthology.org/2021.naacl-main.58.pdf)
-
 * [Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports](https://arxiv.org/pdf/1911.02541.pdf)
 
   
@@ -204,13 +176,9 @@ A paper list on Factual Consistency
 #### Fact-aware
 
 * [Faithful to the original: Fact-aware neural abstractive summarization](https://ojs.aaai.org/index.php/AAAI/article/view/11912/11771)
-
 * [Enhancing Factual Consistency of Abstractive Summarization](https://aclanthology.org/2021.naacl-main.58.pdf)
-
 * [Mind The Facts: Knowledge-Boosted Coherent Abstractive Text Summarization](https://arxiv.org/pdf/2006.15435.pdf)
-
 * [Refine and Imitate: Reducing Repetition and Inconsistency in Persuasion Dialogues via Reinforcement Learning and Human Demonstration](https://arxiv.org/pdf/2012.15375.pdf)
-
 * [CLIFF: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization](https://aclanthology.org/2021.emnlp-main.532.pdf)
 * [Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding](https://arxiv.org/pdf/2104.08455.pdf)
 * [Optimizing the Factual Correctness of a Summary: A Study of Summarizing Radiology Reports](https://arxiv.org/pdf/1911.02541.pdf)
@@ -259,7 +227,6 @@ A paper list on Factual Consistency
 - [RUSE: Regressor Using Sentence Embeddings for Automatic Machine Translation Evaluation](https://aclanthology.org/W18-6456.pdf) (2018, RUSE)
 - [Question Answering as an Automatic Evaluation Metric for News Article Summarization](https://aclanthology.org/N19-1395/) (2019, APES)
 - [Assessing The Factual Accuracy of Generated Text](https://arxiv.org/abs/1905.13322) (2019)
-
 - [FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization](https://aclanthology.org/2020.acl-main.454.pdf) (2020, FEQA)
 - [ESTIME: Estimation of Summary-to-Text Inconsistency by Mismatched Embeddings](https://aclanthology.org/2021.eval4nlp-1.10.pdf) (2020, ESTIME)
 - [Asking and Answering Questions to Evaluate the Factual Consistency of Summaries](https://aclanthology.org/2020.acl-main.450.pdf) (2020, QAGS)
@@ -284,7 +251,6 @@ A paper list on Factual Consistency
 ## 4 Resource
 
 * [GENIE: A Leaderboard for Human-in-the-Loop Evaluation of Text Generation](https://arxiv.org/pdf/2101.06561.pdf)
-
 * [I like fish , especially dolphins : Addressing Contradictions in Dialogue Modeling](https://arxiv.org/pdf/2012.13391.pdf)
 
   
