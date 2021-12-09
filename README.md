@@ -12,8 +12,11 @@ A paper list on Factual Consistency
   * [Different Stages](#24-different-stages)
   * [Different Granularities](#25-different-granularities)
   * [Different Views](#26-different-views)
-
 * [Evaluation](#3-evaluation)
+  * [Word Overlap-based Metrics](#31-word-overlap-based-metrics)
+  * [Edit-distance-based Metrics](#32-edit-distance-based-metrics)
+  * [Model-based Metrics](#33-model-based-metrics)
+  * [Embedding-based Metrics](#34-embedding-based-metrics)
 * [Resource](#4-resource)
 * [Analysis](#5-analysis)
 
@@ -90,8 +93,8 @@ A paper list on Factual Consistency
 #### Contrastive Learning
 
 * [CLIFF: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization](https://aclanthology.org/2021.emnlp-main.532.pdf)
-
 * [Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding](https://arxiv.org/pdf/2104.08455.pdf)
+* [CO2Sum:Contrastive Learning for Factual-Consistent Abstractive Summarization](https://arxiv.org/abs/2112.01147)
 
 #### Unlikelihood Training
 
@@ -232,9 +235,51 @@ A paper list on Factual Consistency
 
 ## 3 Evaluation
 
-* [Entity-level Factual Consistency of Abstractive Text Summarization](https://aclanthology.org/2021.eacl-main.235.pdf)
+### 3.1 Word Overlap-based Metrics
 
-  
+- [BLEU: a Method for Automatic Evaluation of Machine Translation](https://aclanthology.org/P02-1040.pdf) (2004, BLEU)
+- [METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments](https://aclanthology.org/W05-0909.pdf) (2005, METEOR)
+- [Meteor Universal: Language Specific Translation Evaluation for Any Target Language](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) (2014, METEOR 1.5)
+- [Meteor++ 2.0: Adopt Syntactic Level Paraphrase Knowledge into Machine Translation Evaluation](https://aclanthology.org/W19-5357.pdf) (2019, METEOR++ 2.0)
+- [ROUGE: A Package for Automatic Evaluation of Summaries](https://aclanthology.org/W04-1013.pdf) (2004, ROUGE)
+- [Entity-level Factual Consistency of Abstractive Text Summarization](https://arxiv.org/abs/2102.09130) (2021)
+
+### 3.2 Edit-distance-based Metrics
+
+- [A Study of Translation Edit Rate with Targeted Human Annotation](https://aclanthology.org/2006.amta-papers.25.pdf) (2006, TER)
+- [ITER: Improving Translation Edit Rate through Optimizable Edit Costs](https://aclanthology.org/W18-6455.pdf) (2018, ITER)
+- [CDER: Efficient MT Evaluation Using Block Movements](https://aclanthology.org/E06-1031.pdf) (2006, CDER)
+- [CharacTer: Translation Edit Rate on Character Level](https://aclanthology.org/W16-2342.pdf) (2016, CharacTer)
+- [EED: Extended Edit Distance Measure for Machine Translation](https://aclanthology.org/W19-5359.pdf) (2019, EED)
+
+### 3.3 Model-based Metrics
+
+- [BEER: BEtter Evaluation as Ranking](https://aclanthology.org/W14-3354.pdf) (2014, BEER)
+- [Blend: a Novel Combined MT Metric Based on Direct Assessment — CASICT-DCU submission to WMT17 Metrics Task](https://aclanthology.org/W17-4768.pdf) (2017, Blend)
+- [RUSE: Regressor Using Sentence Embeddings for Automatic Machine Translation Evaluation](https://aclanthology.org/W18-6456.pdf) (2018, RUSE)
+- [Question Answering as an Automatic Evaluation Metric for News Article Summarization](https://aclanthology.org/N19-1395/) (2019, APES)
+- [Assessing The Factual Accuracy of Generated Text](https://arxiv.org/abs/1905.13322) (2019)
+
+- [FEQA: A Question Answering Evaluation Framework for Faithfulness Assessment in Abstractive Summarization](https://aclanthology.org/2020.acl-main.454.pdf) (2020, FEQA)
+- [ESTIME: Estimation of Summary-to-Text Inconsistency by Mismatched Embeddings](https://aclanthology.org/2021.eval4nlp-1.10.pdf) (2020, ESTIME)
+- [Asking and Answering Questions to Evaluate the Factual Consistency of Summaries](https://aclanthology.org/2020.acl-main.450.pdf) (2020, QAGS)
+- [FFCI: A Framework for Interpretable Automatic Evaluation of Summarization](https://arxiv.org/pdf/2011.13662.pdf) (2021, FFCI)
+- [Q2: Evaluating Factual Consistency in Knowledge-Grounded Dialogues via Question Generation and Question Answering](https://aclanthology.org/2021.emnlp-main.619.pdf) (2021, Q2)
+- [QuestEval: Summarization Asks for Fact-based Evaluation](https://aclanthology.org/2021.emnlp-main.529/) (2021, QuestEval)
+
+### 3.4 Embedding-based Metrics
+
+- [MEANT 2.0: Accurate semantic MT evaluation for any output language](https://aclanthology.org/W17-4767.pdf) (2017, MEANT 2.0)
+- [Accurate semantic textual similarity for cleaning noisy parallel corpora using semantic machine translation evaluation metric: The NRC supervised submissions to the Parallel Corpus Filtering task](https://aclanthology.org/W18-6481.pdf) (2018, YISI-1)
+- [From word embeddings to document distances](https://proceedings.mlr.press/v37/kusnerb15.pdf) (2015, WMD)
+- [WMDO: Fluency-based Word Mover’s Distance for Machine Translation Evaluation](https://aclanthology.org/W19-5356.pdf) (2019, WMDO)
+- [Sentence Mover’s Similarity: Automatic Evaluation for Multi-Sentence Texts](https://aclanthology.org/P19-1264.pdf) (2019, SMS)
+- [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/pdf/1904.09675) (2019, BERTScore)
+- [MoverScore: Text generation evaluating with contextualized embeddings and earth mover distance](https://aclanthology.org/D19-1053.pdf) (2019, MoverScore)
+- [Fill in the BLANC: Human-free quality estimation of document summaries](https://aclanthology.org/2020.eval4nlp-1.2.pdf) (2020, BLANC)
+- [Play the Shannon Game With Language Models: A Human-Free Approach to Summary Evaluation](https://arxiv.org/abs/2103.10918) (2021, Shannoon Score)
+
+
 
 ## 4 Resource
 
